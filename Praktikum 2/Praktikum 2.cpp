@@ -30,6 +30,25 @@ void input() {      //procedur untuk input
 
 }
 
+void display() {
+	cout << endl;
+	cout << "=================" << endl;
+	cout << "Element Array yang telah tersusun" << endl;
+	cout << "=================" << endl;
+	cout << endl;
+	for (int j = 0; j < n; j++) {
+		cout << arr[j];
+		if (j < n - 1) {
+			cout << " --> ";
+		}
+	}
+	cout << endl;
+	cout << endl;
+	cout << "Jumlah pass = " << n - 1 << endl;
+	cout << endl;
+
+}
+
 void insertionSort() {
     int i, n, temp, j;
     int arr[9];
